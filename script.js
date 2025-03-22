@@ -1,3 +1,5 @@
+/*
+
 let plus1 = 10 ;
 let plus2 = 20 ;
 console.log(plus1+plus2)
@@ -35,7 +37,28 @@ let age1 = 19;
 for (let num = 1 ; num < 10; num++)
     console.log(num)
 
-for (let revnum =10 ;
-    revnum > 1; revnum--)
+for (let revnum =10 ;revnum > 1; revnum--)
     console.log(revnum)
 
+for (let love = 1 ; love <= 5; love++)
+    console.log ("love")
+
+*/
+
+for ( let like = 1 ; like <= 6; like++)
+{
+    if( like == 4)
+        break;
+
+    else
+console.log(like);
+    
+}
+console.log("hello world")
+for ( let like1 = 1 ; like1 <= 4; like1++)
+    
+        if( like1 == 3)
+            continue;
+    
+        else
+    console.log(like1);
