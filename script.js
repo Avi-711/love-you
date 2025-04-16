@@ -364,4 +364,18 @@ do {
 
 */
 
+// String same as pre tag 
 
+let age = `gi 
+ijew
+kej
+ej
+js`;
+console.log(age);
+
+// .
+let firstName = new String (`hiello`);
+console.log(firstName);
+
+let num = new Number(28);
+console.log(num)
