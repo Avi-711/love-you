@@ -362,7 +362,7 @@ do {
   age++;
 }while(age <= 10);  
 
-*/
+
 
 // String same as pre tag 
 
@@ -379,3 +379,46 @@ console.log(firstName);
 
 let num = new Number(28);
 console.log(num)
+
+*/
+
+// space between 
+
+let myName = "Avi";
+let lName = "hello";
+let full = (myName + " " + lName);
+console.log(full);
+
+// length 
+console.log(lName.length)
+
+// upercase 
+console.log(myName.toUpperCase());
+// lowercase 
+console.log(full.toLowerCase())
+
+
+
+// add commnt 
+
+let age = 38;
+let age2 = 38;
+let a = age + age2;
+console.log(` sum age plus ${age}  
+  or ${age2} total ${a}`);
+
+
+  // word cutter 
+
+  let i = "hello baby";
+  console.log(i.substring(1,3)); 
+  console.log(i.substring(1)); 
+
+
+  let sentence = "hello hi avi hello shla ";
+  let words = sentence.split(' ');
+  console.log(words)
+
+  let x = "heloo hi  \"HELLO\" JIA ";
+  console.log(x)
+
