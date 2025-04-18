@@ -380,7 +380,7 @@ console.log(firstName);
 let num = new Number(28);
 console.log(num)
 
-*/
+
 
 // space between 
 
@@ -401,11 +401,10 @@ console.log(full.toLowerCase())
 
 // add commnt 
 
-let age = 38;
-let age2 = 38;
-let a = age + age2;
-console.log(` sum age plus ${age}  
-  or ${age2} total ${a}`);
+let age = 82 ;
+let ag = 38;
+let sum = age + ag ;
+console.log(`hello world age ${age} plus ${ag} total ${sum}`);
 
 
   // word cutter 
@@ -420,5 +419,26 @@ console.log(` sum age plus ${age}
   console.log(words)
 
   let x = "heloo hi  \"HELLO\" JIA ";
-  console.log(x)
+  console.log(x);
 
+  */
+
+// function definition 
+
+function sayMyName () {
+  console.log("hello Avi")
+}
+   
+// function use -  function call 
+
+sayMyName();
+
+
+function printCounting () {
+  for(let i = 1 ; i<=28; i++)
+  {
+    console.log(i);
+  }
+}
+
+printCounting();
